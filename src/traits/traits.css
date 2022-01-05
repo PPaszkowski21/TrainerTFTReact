@@ -1,0 +1,81 @@
+.traitContainerForShop {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 10px;
+    gap:5px;
+    margin-bottom: 5px;
+}
+
+.trait {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.traitBackground img {
+    margin-top:10px;
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(3%) saturate(442%) hue-rotate(288deg) brightness(115%) contrast(92%);
+}
+
+.traitBackground {
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    background-image: url("../assets/traits/traitDark.png");
+}
+
+.traitText {
+    align-self: center;
+}
+
+.activeTraitsContainer {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    gap:3px;
+}
+
+.activeTraitBackground {
+    width: 50px;
+    height: 50px;
+    background-size: 100% 100%;
+}
+
+.bronze {
+    background-image: url("../assets/traits/traitBronze.png");
+}
+
+.silver { 
+    background-image: url("../assets/traits/traitSilver.png");
+}
+
+.gold {
+    background-image: url("../assets/traits/traitGold.png");
+}
+
+.chromatic {
+    background-image: url("../assets/traits/traitChromatic.png");
+}
+
+.activeTrait {
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    color:white;
+}
+
+.activeTraitBackground img {
+    margin-top:12.5px;
+    width: 25px;
+    height: 25px;
+}
+
+.activeTraitText {
+    align-self: center;
+}
+

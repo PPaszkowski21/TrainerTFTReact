@@ -1,0 +1,100 @@
+.menuRow {
+    background-color: rgb(66,61,44);
+    display:flex;
+    height:927.4px;
+    /* height:1070px; */
+}
+
+.navRow3 {
+    height: 33.33%;
+}
+
+.navRow2 {
+    height: 50%;
+}
+
+.menuCol10 {
+    border: rgba(204, 183, 64,0.733) inset 5px;
+    width:10%;
+    height: 100%;
+}
+
+.menuCol8x {
+    width:80%;
+    height:100%;
+    border: rgba(204, 183, 64, 0.733) inset 5px;
+    border-left:none;
+    border-right:none;
+}
+
+.menuCol2 {
+    width:50%;
+    height:100%;
+}
+
+.menuCol3 {
+   width: 33.33%;
+   height:100%;
+}
+
+.menuCol4 {
+    width: 25%;
+    height:100%;
+}
+
+.menuCol5 {
+    width: 20%;
+    height:100%;
+}
+img {
+    width:100%;
+    height:100%;
+}
+
+.menuCol {
+    width:33.33%;
+}
+
+.navButton {
+    width: 100%;
+    height: 100%;
+    background:rgba(21,32,33,255);
+    border: rgba(204, 183, 64, 0.733) inset 2px;
+    color:white;
+}
+
+.navButton:hover.isNotEnabled:not(.isDisabled) {
+    border: rgba(21,32,33,0.9) outset 2px;
+    background:rgba(204, 183, 64, 0.733);
+}
+
+.navigation {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    height: 100%;
+    color: rgba(204, 183, 64, 0.733);
+    font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}   
+
+.navRow3 button {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+
+.isDisabled {
+    background: gray;
+    color:black;
+}
+
+.isEnabled {
+    border:rgba(204, 183, 64, 0.733)  outset 5px;
+    background:rgb(159,139,88);
+}

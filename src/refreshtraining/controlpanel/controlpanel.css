@@ -1,0 +1,122 @@
+.controlPanelContainer {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height:30%;
+}
+
+.controlPanelTopPart {
+    display:flex;
+    flex-direction: row;
+    align-self:flex-end;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.controlPanelDownPart {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height:72.5%;
+    background-image: url("./assets/shopBackground.png");
+    background-size: 100% 100%;
+}
+
+.infoDisplay{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width:45%;
+}
+
+.lvlLabel {
+    width:50%;
+    background-image: url("./assets/lvlLabel.png");
+    background-size: 100% 100%;
+    padding-top: 13px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+.chanceLabel {
+    background-image: url("./assets/chanceLabel.png");
+    background-size: 100% 100%;
+    width:65%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    color: white;   
+    align-self: flex-end;
+}
+
+.goldDisplay {
+    width: 15%;
+    background-image: url("./assets/goldLabel.png");
+    background-size: 100% 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.goldDisplay img {
+    margin-top:7%;
+    width: 30px;
+    height: 30px;
+}
+
+.goldDisplay label {
+    font-size:35px;
+    margin-left:10px;
+    color: rgba(204, 183, 64, 0.733);
+}
+
+#gold {
+    margin-top:7%;
+    width: 40px;
+    height: 30px;
+    background:rgba(21,32,33,255);
+    color:white;
+}
+
+#goldRS {
+    align-self:center;
+    font-size:20px;
+}
+
+.controlPanelLeftPart {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:21%;
+    padding: 10px;
+    margin-left: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.controlPanelLeftPart button {
+    height: 45%;
+}
+
+#refreshButton {
+    background-image: url("./assets/refreshButton.png");
+    border: rgba(21,32,33,255) outset 2px;
+}
+
+#refreshButton:hover {
+    background-image: url("./assets/refreshButtonActive.png");
+}
+
+#changeLevelButton {
+    background-image: url("./assets/changeLevelButton.png");
+}
+
+#changeLevelButton:hover {
+    background-Image: url("./assets/changeLevelButtonActive.png")
+}
+
+.stretch {
+    background-size: 100% 100%;
+}

@@ -1,0 +1,101 @@
+.rerollContainer {
+    margin-right: 20px;
+    margin-bottom:150px;
+    align-self: flex-start;
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    height:65%;
+    border: rgba(204, 183, 64, 0.733) groove 5px;
+    background:rgba(21,32,33,0.9);
+    color: rgba(204, 183, 64, 0.733) ;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:20px;
+}
+
+.timerMode {
+    width: 35%;
+}
+
+.freeTrainingMode {
+    margin-left:20%;
+}
+
+.reseter {
+    align-self: center;
+    width:10%;
+    height:15%;
+}
+
+.reseter button{
+    color: white;
+    background-color:rgba(21,32,33,255);
+    border-color: rgba(204, 183, 64, 0.794);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.reseter button:hover {
+    border: rgba(21,32,33,0.9) outset 2px;
+    background:rgba(204, 183, 64, 0.733);
+}
+
+.counter {
+    height: 15%;
+}
+
+.objectiveAndProbability {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    height:70%;
+}
+
+.objective {
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.objective img {
+    width: 120px;
+    height: 75%;
+    align-self: center;
+}
+
+.objective text {
+    height: 20%;
+}
+
+.probability {
+    width:50%;
+    height: 50%;
+    text-align: left;
+    padding-top:30px;
+    padding-left:10px;
+    display:flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap:27px;
+}
+
+.probabilityNumberContainer {
+    display:flex;
+    flex-direction: row;
+}
+
+#probabilityNumber {
+    font-size:60px;
+}
+
+.probability label {
+    font-size:20px;
+}
+
+#percent {
+    align-self: center;
+    font-size: 30px;
+}
+
+.greenText {
+    color: green;
+}

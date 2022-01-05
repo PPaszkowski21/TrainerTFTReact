@@ -1,0 +1,168 @@
+.chooseModeContainer {
+    width: 100%;
+    height: 100%;
+    background-size:100% 100%;
+    background-image: url("../assets/settingsBackground.jpg");
+    display:flex;
+    flex-direction: column;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:white;
+}
+
+.titleMode {
+    width:70%;
+    height: 20%;
+    border: 3px double green;
+    place-self:center;
+    margin-top:5%;
+    border: rgba(204, 183, 64, 0.733) groove 5px;
+    background:rgba(21,32,33,0.9);
+}
+
+.titleText {
+    padding: 25px;
+    font-size:60px;
+    color: rgba(204, 183, 64, 0.733);
+}
+
+.buttonsMode {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    height:30%;
+    padding-top: 20%;
+}
+
+.modeContainer {
+    width: 23%;
+    height: 65%;
+}
+
+.buttonsMode button {
+    padding:25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:white;
+    font-size:55px;
+}
+
+.modeOff:hover {
+    border: rgba(21,32,33,0.9) outset 5px;
+    background:rgba(204, 183, 64, 0.733);
+}
+
+.freeTraining {
+}
+
+.timeReroll {
+    align-self: flex-end;
+}
+
+.roundSimulator {
+
+}
+
+.modeOff {
+    border: rgba(204, 183, 64, 0.733) inset 5px;
+    background:rgba(21,32,33,0.7);
+}
+
+.modeOn {
+    border:rgba(204, 183, 64, 0.733)  outset 5px;
+    background:rgb(159,139,88);
+}
+
+.timerContainerRS {
+    width: 90%;
+    height: 40%;
+    border: rgba(204, 183, 64, 0.733) groove 5px;
+    background:rgba(21,32,33,0.9);
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:rgba(204, 183, 64, 0.733);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:20px;
+}
+
+.roundManagement {
+    width: 90%;
+    height: 30%;
+    border: rgba(204, 183, 64, 0.733) groove 5px;
+    background:rgba(21,32,33,0.9);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.roundManagementRow {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:rgba(204, 183, 64, 0.733);
+}
+
+#seriesGold {
+    width: 30px;
+    margin-left:2px;
+    color:white;
+    background:rgba(21,32,33,0.9);
+}
+
+#win {
+    
+}
+
+.timerContainer {
+    width: 15%;
+    height: 30%;
+    margin-top:3.5%;
+    margin-right: 20px;
+    border: rgba(204, 183, 64, 0.733) groove 5px;
+    background:rgba(21,32,33,0.9);
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:rgba(204, 183, 64, 0.733);
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:20px;
+}
+
+.timerButtons {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.timerButtonsRS {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.timerButtons button {
+    border: rgba(204, 183, 64, 0.733) inset 2px;
+    background:rgba(21,32,33,0.9);
+    color:white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.timerButtonsRS button {
+    border: rgba(204, 183, 64, 0.733) inset 2px;
+    width: 40%;
+    background:rgba(21,32,33,0.9);
+    color:white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+.timerButtons button:hover {
+    border: rgba(21,32,33,0.9) outset 2px;
+    background:rgba(204, 183, 64, 0.733);
+}
+
+.timerButtonsRS button:hover {
+    border: rgba(21,32,33,0.9) outset 2px;
+    background:rgba(204, 183, 64, 0.733);
+}

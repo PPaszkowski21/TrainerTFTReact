@@ -1,0 +1,22 @@
+.refreshTrainingContainer {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position:relative;
+    background-size: 100% 100%;
+    background-image: url("../assets/runic-arena-skin-tft.jpg");
+}
+
+.traitsAndReroll {
+    display: flex;
+    flex-direction: row;
+    height:40%;
+}
+
+.timerAndRoundManagement {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}

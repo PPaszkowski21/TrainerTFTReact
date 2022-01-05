@@ -1,0 +1,109 @@
+.board {
+    width: 100%;
+    min-width: 300px;
+    display:flex;
+    flex-direction: row;
+    gap:24px;
+    margin-top:10px;
+    margin-left:170px;
+    perspective: 1500px;
+}
+
+.battlefield {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height:150px;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+    padding-left: 45px;
+    perspective: 1500px;
+}
+
+.battlefield .slot {
+    transform: rotateX(40deg);
+}
+
+.bfSlotEven {
+    align-self: flex-end;
+}
+
+.bfSlotNotEven {
+    align-self: flex-start;
+}
+
+.placeText {
+    color:white;
+    margin-top:25%;
+}
+
+.slot {
+    width: 6.5%;
+    background-size: 100% 100%;
+    height: 80px;
+    border: rgba(204, 183, 64, 0.733) double 5px;
+}
+
+.slot:hover {
+    border: rgba(21,32,33,255) double 5px;
+    transition: border 500ms;
+}
+
+.slot:hover button {
+    display: block;
+}
+
+.ToMove {
+    border: rgba(21,32,33,255) double 5px;
+}
+
+.buttonAndStars {
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.buttonAndStars button {
+    display:none;
+    width:30px;
+    height:30px;
+    color: red;
+    background-color:rgba(21,32,33,255);
+    border-color: rgba(204, 183, 64, 0.794);
+    right:0;
+    bottom:0;
+    align-self: flex-end;
+    margin-top:30px;
+    position:absolute;
+    font-size: 20px;
+    padding:0px;
+}
+
+.buttonAndStars button:hover {
+    border: rgba(21,32,33,255) outset 2px;
+    background:rgba(204, 183, 64, 0.794) ;
+    transition: border 500ms;
+    transition: background 500ms;
+}
+
+.slotFrame {
+    width: 100%;
+    height: 30%;
+}
+  
+.star1 {
+    background-image: url("../controlpanel/assets/boardStar1.png");
+    background-size: 100% 100%;
+}
+
+.star2 {
+    background-image: url("../controlpanel/assets/boardStar2.png");
+    background-size: 100% 100%;
+}
+
+.star3 {
+    background-image: url("../controlpanel/assets/boardStar3.png");
+    background-size: 100% 100%;
+}

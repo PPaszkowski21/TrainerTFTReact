@@ -1,0 +1,115 @@
+.championCard {
+    width:19.5%;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.championFrame {
+  width: 100%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  cursor: pointer;
+}
+
+.nameAndCost {
+    height: 22.5%;
+    display:flex;
+}
+
+.name {
+    width: 50%;
+    display:flex;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.cost {
+    width: 50%;
+    display:flex;
+    justify-content: right;
+    gap:3px;
+}
+
+.cost img {
+    width: 20%;
+    height: 60%;
+    margin-top:7px;
+}
+
+.cost p {
+    margin-right: 10px;
+}
+
+.synergies {
+    display:flex;
+}
+
+.frame1 {
+    background-image: url("../assets/championFrame1.png");
+    background-size: 100% 100%;
+}
+
+.frame2 {
+    background-image: url("../assets/championFrame2.png");
+    background-size: 100% 100%;
+}
+
+.frame3 {
+    background-image: url("../assets/championFrame3.png");
+    background-size: 100% 100%;
+}
+
+.frame4 {
+    background-image: url("../assets/championFrame4.png");
+    background-size: 100% 100%;
+}
+
+.frame5 {
+    background-image: url("../assets/championFrame5.png");
+    background-size: 100% 100%;
+}
+
+.frame1:hover {
+    background-image: url("../assets/championFrame1Active.png");
+    background-size: 100% 100%;
+}
+
+.frame2:hover {
+    background-image: url("../assets/championFrame2Active.png");
+    background-size: 100% 100%;
+}
+
+.frame3:hover {
+    background-image: url("../assets/championFrame3Active.png");
+    background-size: 100% 100%;
+}
+
+.frame4:hover {
+    background-image: url("../assets/championFrame4Active.png");
+    background-size: 100% 100%;
+}
+
+.frame5:hover {
+    background-image: url("../assets/championFrame5Active.png");
+    background-size: 100% 100%;
+}
+
+.emptyFrame {
+    background-image: url("../assets/emptyCard.png");
+    background-size: 100% 100%;
+}
+
+.grayOverlay {
+    background-color: rgba(105,105,105,0.5);
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    cursor:not-allowed;
+}

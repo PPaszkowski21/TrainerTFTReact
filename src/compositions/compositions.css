@@ -1,0 +1,101 @@
+.backgroundTransparent {
+    background-image: url("../assets/runic-arena-skin-tft.jpg");
+    background-size: 100% 100%;
+    width:100%;
+    height: 100%;
+}
+
+.compositionsContainer {
+    background:rgb(159,139,88,0.7);
+    width:100%;
+    height:100%;
+}
+
+button.championContainer.isNotObjective:hover{
+    border: rgba(21,32,33,0.9) outset 5px;
+    background:rgba(204, 183, 64, 0.733);
+}
+
+.championList {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 40px;
+}
+
+button.championContainer {
+    overflow:hidden;
+    padding:5px;
+    max-width: 100px;
+}
+
+button.championContainer label {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:white;
+}
+
+button.championContainer .championControlPanel {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+button.championContainer .championControlPanel input {
+    background:rgba(21,32,33,255);
+    width:40%;
+    color:white;
+    text-align: right;
+}
+
+button.championContainer .champion {
+    background-size: 100% 100%;
+    height: 70px;
+    width: 75px;
+    align-self: center;
+}
+
+.isNotObjective {
+    border: rgba(204, 183, 64, 0.733) inset 5px;
+    background:rgba(21,32,33,255);
+}
+
+.isObjective {
+    border:rgba(204, 183, 64, 0.733)  outset 5px;
+    background:rgb(159,139,88);
+}
+
+.gui {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.switchAndInstruction {
+    display:flex;
+    flex-direction: row;
+    color:white;
+    margin-top:10px;
+}
+
+.switchAndInstruction label {
+    align-self:center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.switch {
+    align-self:center;
+}
+
+.instruction {
+    border: rgba(204, 183, 64, 0.733) groove 5px;
+    background:rgba(21,32,33,0.9);
+    margin-right:20px;
+    width:300px;
+    height:60px;
+    color:rgba(204, 183, 64, 0.733);
+    padding:5px;
+    font-size:20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
